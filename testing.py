@@ -4,7 +4,7 @@ import math
 original_puzzle = []
 
 for i in range(9):
-    row = input("ya boy: ")
+    row = input("Input Row: ")
     lst = row.split()
     int_lst = list(map(int, lst))
     original_puzzle.append(int_lst)
